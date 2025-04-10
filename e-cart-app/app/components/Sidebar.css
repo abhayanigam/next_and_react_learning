@@ -1,0 +1,31 @@
+.sidebar {
+    width: 250px;
+    background-color: #6d6d6d; /* Light yellow */
+    padding: 16px;
+    border-right: 1px solid #ddd;
+    color: black; /* ✅ Set text color to black */
+  }
+  
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+  
+  .category-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .category-list li {
+    margin-bottom: 8px;
+    cursor: pointer;
+    color: black; /* ✅ Ensure list items are black */
+    transition: color 0.2s ease;
+  }
+  
+  .category-list li:hover {
+    color: #ff9800; /* Orange on hover */
+  }
+  
